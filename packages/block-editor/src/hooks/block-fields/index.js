@@ -242,10 +242,7 @@ const withBlockFields = createHigherOrderComponent(
 					isSelectionWithinCurrentSection &&
 						( isSectionBlock ||
 							blockEditingMode === 'contentOnly' ) && (
-							<PrivateInspectorControlsFill
-								group="content"
-								forceDisplayControls
-							>
+							<PrivateInspectorControlsFill group="content">
 								<BlockFields
 									{ ...props }
 									blockType={ blockType }
